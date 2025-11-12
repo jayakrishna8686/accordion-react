@@ -26,7 +26,7 @@ export default function App() {
 
 function Accordion({ data }) {
   return data.map((datas, i) => (
-    <AccordionItem title={datas.title} text={datas.text} num={i} />
+    <AccordionItem title={datas.title} text={datas.text} num={i + 1} />
   ));
 }
 
